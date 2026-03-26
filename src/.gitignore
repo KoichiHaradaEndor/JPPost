@@ -1,0 +1,37 @@
+# Data folder
+######################
+[dD][aA][tT][aA]/
+
+# 4D project architecture
+######################
+/Logs/*
+/Project/DerivedData/*
+/Project/BuildSettings/*
+/Settings/*
+/userPreferences*/*
+/Builds/*
+
+# Derived data
+######################
+DerivedData/
+
+# Libraries
+Libraries/
+
+# User preferences
+######################
+userPreferences.*/
+
+# Uncomment (remove the following # ) to ignore Trash
+######################
+Project/Trash
+
+# System files
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
