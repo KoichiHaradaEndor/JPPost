@@ -1,0 +1,12 @@
+{
+	"dependencies": {
+		"WebAPI": {
+			"github": "KoichiHaradaEndor/WebAPI",
+			"version": "latest"
+		},
+		"4D NetKit": {
+			"github": "4d/4D-NetKit",
+			"version": "4d"
+		}
+	}
+}

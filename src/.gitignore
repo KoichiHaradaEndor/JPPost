@@ -35,3 +35,6 @@ Project/Trash
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Secret File
+/Project/Sources/Methods/test_systemInfo.4dm

@@ -1,0 +1,247 @@
+{
+	"_method_": {},
+	"cs.JPPost": {
+		"_Token": {
+			"new()": {
+				"Syntax": "**.new**()",
+				"Params": [],
+				"Summary": ""
+			}
+		},
+		"SystemInfo": {
+			"new()": {
+				"Syntax": "**.new**()",
+				"Params": [],
+				"Summary": ""
+			}
+		},
+		"SearchCode": {
+			"new()": {
+				"Syntax": "**.new**()",
+				"Params": [],
+				"Summary": ""
+			}
+		},
+		"_Utility": {
+			"new()": {
+				"Syntax": "**.new**()",
+				"Params": [],
+				"Summary": ""
+			}
+		},
+		"AddressZip": {
+			"new()": {
+				"Syntax": "**.new**()",
+				"Params": [],
+				"Summary": ""
+			}
+		}
+	},
+	"_Token": {
+		"claimToken()": {
+			"Syntax": "**.claimToken**() : Object",
+			"Params": [
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"claimTokenForTest()": {
+			"Syntax": "**.claimTokenForTest**() : Object",
+			"Params": [
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		}
+	},
+	"SystemInfo": {
+		"setParameter()": {
+			"Syntax": "**.setParameter**( *paramName_t* : Text; *value_v* : Variant )",
+			"Params": [
+				[
+					"paramName_t",
+					"Text",
+					"->"
+				],
+				[
+					"value_v",
+					"Variant",
+					"->"
+				]
+			],
+			"Summary": ""
+		},
+		"getParameter()": {
+			"Syntax": "**.getParameter**( *paramName_t* : Text ) : Variant",
+			"Params": [
+				[
+					"paramName_t",
+					"Text",
+					"->"
+				],
+				[
+					"",
+					"Variant",
+					"<-"
+				]
+			],
+			"Summary": ""
+		}
+	},
+	"SearchCode": {
+		"fetch()": {
+			"Syntax": "**.fetch**( *searchCode_t* : Text; *searchOption_o* : Object ) : Object",
+			"Params": [
+				[
+					"searchCode_t",
+					"Text",
+					"->"
+				],
+				[
+					"searchOption_o",
+					"Object",
+					"->"
+				],
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"fetchForTest()": {
+			"Syntax": "**.fetchForTest**( *searchCode_t* : Text; *searchOption_o* : Object ) : Object",
+			"Params": [
+				[
+					"searchCode_t",
+					"Text",
+					"->"
+				],
+				[
+					"searchOption_o",
+					"Object",
+					"->"
+				],
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		}
+	},
+	"_Utility": {
+		"unixTime()": {
+			"Syntax": "**.unixTime**( *date_d* : Date; *time_h* : Time ) : Real",
+			"Params": [
+				[
+					"date_d",
+					"Date",
+					"->"
+				],
+				[
+					"time_h",
+					"Time",
+					"->"
+				],
+				[
+					"",
+					"Real",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"unixTimeToIsoDateGmt()": {
+			"Syntax": "**.unixTimeToIsoDateGmt**( *unixTime_r* : Real ) : Text",
+			"Params": [
+				[
+					"unixTime_r",
+					"Real",
+					"->"
+				],
+				[
+					"",
+					"Text",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"decodeJWT()": {
+			"Syntax": "**.decodeJWT**( *jwt_t* : Text ) : Object",
+			"Params": [
+				[
+					"jwt_t",
+					"Text",
+					"->"
+				],
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"JPtoEN()": {
+			"Syntax": "**.JPtoEN**( *original_t* : Text ) : Text",
+			"Params": [
+				[
+					"original_t",
+					"Text",
+					"->"
+				],
+				[
+					"",
+					"Text",
+					"<-"
+				]
+			],
+			"Summary": ""
+		}
+	},
+	"AddressZip": {
+		"fetch()": {
+			"Syntax": "**.fetch**( *queryParams_o* : Object ) : Object",
+			"Params": [
+				[
+					"queryParams_o",
+					"Object",
+					"->"
+				],
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"fetchForTest()": {
+			"Syntax": "**.fetchForTest**( *queryParams_o* : Object ) : Object",
+			"Params": [
+				[
+					"queryParams_o",
+					"Object",
+					"->"
+				],
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		}
+	}
+}

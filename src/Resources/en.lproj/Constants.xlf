@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.0" xmlns:d4="http://www.4d.com">
+    <file datatype="x-4DK#" original="undefined" source-language="en-US" target-language="en-US"
+        product-version="v17">
+        <header>
+        </header>
+        <body>
+            <group resname="ConstantThemes">
+                <trans-unit id="15000" resname="ConstTheme_15000">
+                    <source>JPPost Common</source>
+                    <target>JPPost Common</target>
+                </trans-unit>
+                <trans-unit id="15001" resname="ConstTheme_15001">
+                    <source>JPPost Token</source>
+                    <target>JPPost Token</target>
+                </trans-unit>
+                <trans-unit id="15003" resname="ConstTheme_15003">
+                    <source>JPPost Internal Use</source>
+                    <target>JPPost Internal Use</target>
+                </trans-unit>
+            </group>
+
+            <group restype="x-4DK#" d4:groupName="ConstTheme_15000">
+                <trans-unit id="20000" d4:value="_hostName">
+                    <source>JPPost Hostname</source>
+                </trans-unit>
+                <trans-unit id="20001" d4:value="_hostNameForTest">
+                    <source>JPPost Hostname For Test</source>
+                </trans-unit>
+                <trans-unit id="20002" d4:value="_apiVersion">
+                    <source>JPPost API Version</source>
+                </trans-unit>
+            </group>
+            <group restype="x-4DK#" d4:groupName="ConstTheme_15001">
+                <trans-unit id="20102" d4:value="_clientId">
+                    <source>JPPost Client ID</source>
+                </trans-unit>
+                <trans-unit id="20103" d4:value="_secretKey">
+                    <source>JPPost Secret Key</source>
+                </trans-unit>
+                <trans-unit id="20106" d4:value="_clientIdForTest">
+                    <source>JPPost Client ID For Test</source>
+                </trans-unit>
+                <trans-unit id="20107" d4:value="_secretKeyForTest">
+                    <source>JPPost Secret Key For Test</source>
+                </trans-unit>
+            </group>
+            <group restype="x-4DK#" d4:groupName="ConstTheme_15003">
+                <trans-unit id="20300" d4:value="Test">
+                    <source>JPPost Test Mode</source>
+                </trans-unit>
+                <trans-unit id="20301" d4:value="Production">
+                    <source>JPPost Production Mode</source>
+                </trans-unit>
+            </group>
+        </body>
+    </file>
+</xliff>
