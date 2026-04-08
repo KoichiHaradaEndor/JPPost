@@ -100,7 +100,7 @@ $addresszip_o:=cs.JPPost.AddressZip.me
 
 ```4d
 var $result_o: Object
-$result_o:=cs.JPPost.AddressZip.me.fetch("0000000")
+$result_o:=cs.JPPost.AddressZip.me.fetch({pref_name: "東京都"; city_name: "千代田区"})
 ```
 
 ### .fetchForTest(queryParams: Object): Object

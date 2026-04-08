@@ -62,15 +62,18 @@ $systemInfoClass_o:=cs.JPPost.SystemInfo.me
 var $systemInfo_o : cs.JPPost.SystemInfo
 $systemInfo_o:=cs.JPPost.SystemInfo.me
 
-$systemInfo_o.setParameter(JPPost Hostname; "production.foo.bar.com")
-$systemInfo_o.setParameter(JPPost Hostname For Test; "test.foo.bar.com")
+$systemInfo_o.setParameter(JPPost Hostname; {APIホスト名})
+$systemInfo_o.setParameter(JPPost Client ID; {あなたのクライアントID})
+$systemInfo_o.setParameter(JPPost Secret Key; {あなたのクライアントシークレット})
+
 $systemInfo_o.setParameter(JPPost API Version; "v2") // デフォルト値と異なるバージョンのAPIを使用する際に設定
 
-$systemInfo_o.setParameter(JPPost Client ID; "abcdefg1234567890")
-$systemInfo_o.setParameter(JPPost Secret Key; "abcdefg1234567890")
-$systemInfo_o.setParameter(JPPost Client ID For Test; "1234567890abcdefg")
-$systemInfo_o.setParameter(JPPost Secret Key For Test; "1234567890abcdefg")
+ // テストを行う場合のみ
+$systemInfo_o.setParameter(JPPost Hostname For Test; {テスト用APIホスト名})
+$systemInfo_o.setParameter(JPPost Client ID For Test; {あなたのテスト用クライアントID})
+$systemInfo_o.setParameter(JPPost Secret Key For Test; {あなたのテスト用クライアントシークレット})
 ```
+
 
 ### .getParameter(name: Text): Variant
 
