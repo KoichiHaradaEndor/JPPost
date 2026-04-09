@@ -1,7 +1,7 @@
 {
 	"_method_": {},
 	"cs.JPPost": {
-		"_Token": {
+		"AddressZip": {
 			"new()": {
 				"Syntax": "**.new**()",
 				"Params": [],
@@ -22,14 +22,14 @@
 				"Summary": ""
 			}
 		},
-		"_Utility": {
+		"_Token": {
 			"new()": {
 				"Syntax": "**.new**()",
 				"Params": [],
 				"Summary": ""
 			}
 		},
-		"AddressZip": {
+		"_Utility": {
 			"new()": {
 				"Syntax": "**.new**()",
 				"Params": [],
@@ -37,10 +37,15 @@
 			}
 		}
 	},
-	"_Token": {
-		"claimToken()": {
-			"Syntax": "**.claimToken**() : Object",
+	"AddressZip": {
+		"fetch()": {
+			"Syntax": "**.fetch**( *queryParams_o* : Object ) : Object",
 			"Params": [
+				[
+					"queryParams_o",
+					"Object",
+					"->"
+				],
 				[
 					"",
 					"Object",
@@ -49,9 +54,14 @@
 			],
 			"Summary": ""
 		},
-		"claimTokenForTest()": {
-			"Syntax": "**.claimTokenForTest**() : Object",
+		"fetchForTest()": {
+			"Syntax": "**.fetchForTest**( *queryParams_o* : Object ) : Object",
 			"Params": [
+				[
+					"queryParams_o",
+					"Object",
+					"->"
+				],
 				[
 					"",
 					"Object",
@@ -139,6 +149,30 @@
 			"Summary": ""
 		}
 	},
+	"_Token": {
+		"claimToken()": {
+			"Syntax": "**.claimToken**() : Object",
+			"Params": [
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"claimTokenForTest()": {
+			"Syntax": "**.claimTokenForTest**() : Object",
+			"Params": [
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		}
+	},
 	"_Utility": {
 		"unixTime()": {
 			"Syntax": "**.unixTime**( *date_d* : Date; *time_h* : Time ) : Real",
@@ -204,40 +238,6 @@
 				[
 					"",
 					"Text",
-					"<-"
-				]
-			],
-			"Summary": ""
-		}
-	},
-	"AddressZip": {
-		"fetch()": {
-			"Syntax": "**.fetch**( *queryParams_o* : Object ) : Object",
-			"Params": [
-				[
-					"queryParams_o",
-					"Object",
-					"->"
-				],
-				[
-					"",
-					"Object",
-					"<-"
-				]
-			],
-			"Summary": ""
-		},
-		"fetchForTest()": {
-			"Syntax": "**.fetchForTest**( *queryParams_o* : Object ) : Object",
-			"Params": [
-				[
-					"queryParams_o",
-					"Object",
-					"->"
-				],
-				[
-					"",
-					"Object",
 					"<-"
 				]
 			],
